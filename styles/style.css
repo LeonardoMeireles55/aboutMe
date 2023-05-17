@@ -120,6 +120,10 @@ body {
 }
 
 @media (max-width: 1200px) {
+    .foto_perfil {
+        width: auto;
+    }
+
     .header {
         padding: 10%;
         font-size: 0.5rem;
