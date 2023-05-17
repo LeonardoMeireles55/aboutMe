@@ -121,7 +121,7 @@ body {
 
 @media (max-width: 1200px) {
     .foto_perfil {
-        width: auto;
+        width: 25%;
     }
 
     .header {
