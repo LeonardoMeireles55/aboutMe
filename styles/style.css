@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-primaria: black;
+    --cor-secundaria: white;
+    --cor-terciaria: #03A062;
+    --cor-hover: #272727;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: black; 
+    color: var(--cor-secundaria)
+}
+
+.header {
+    padding: 2% 0 0 15%;
+    
+}
+
+.header_nav {
+    display: flex;
+    gap: 80px;
+}
+
+.header_links {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    
+}
+
+.titulo-destaque {
+    color: var(--cor-terciaria)
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.apresentacao_links_subtitulo {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1rem;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 2.25rem;
+    font-weight: 600;
+    font-family: 'IBM Plex Mono', monospace;
+
+
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    padding: 21.5px 0;
+    gap: 8px;
+    border: 2px dotted var(--cor-terciaria);
+    width: 50%;
+    border-radius: 16px;
+    font-size: 2rem;
+    font-weight: 200;
+    color: var(--cor-secundaria);
+    font-family: 'IBM Plex Mono', monospace;
+    text-decoration: none;
+
+}
+
+.apresentacao__links__link:hover {
+    background-color: var(--cor-hover)
+}
+
+.foto_perfil {
+    width: 50%;
+}
+
+
+.footer {
+    color: var(--cor-primaria);
+    background-color:var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 10%;
+    }
+    .header_nav {
+        justify-content: center;
+    }
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo {
+        width: auto;
+    }
+}
