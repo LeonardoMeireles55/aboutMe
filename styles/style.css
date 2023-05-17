@@ -122,6 +122,7 @@ body {
 @media (max-width: 1200px) {
     .header {
         padding: 10%;
+        font-size: 0.5rem;
     }
     .header_nav {
         justify-content: center;
@@ -132,8 +133,14 @@ body {
     }
     .apresentacao__conteudo {
         width: auto;
+        font-size: 0.5rem;
     }
     .apresentacao__links__link {
         width: auto;
+        font-size: 1.5rem;
+    }
+
+    .footer {
+        font-size: 1rem;
     }
 }
